@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# 깃허브에 올린 것
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### ch_1
+* 리액트 개발 환경 업로드
+* Prettier 플러그인 업로드
 
-## Available Scripts
+### ch_2
+* **추후에 올릴 예정**
 
-In the project directory, you can run:
+### ch_3(1/2)
+* 다양한 프로퍼티(문자열형, 객체형, 불리언 프로퍼티 등) 관련 코드 업로드
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 챕터에서 공부한 중요개념
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### ch_1 
+* 리액트의 **개념**은 무엇일까? -> 리액트는 페이스북을 개발할 때 사용한 기술이며, 공개 소프트웨어이다. 가장 큰 특징은 '화면 출력에 특화된 프레임워크'
+* 리액트의 **장점**은 무엇일까? -> 컴포넌트로 화면 구성을 효율적으로 할 수 있다, 화면 출력 소곧가 빠르다.
+* **노드 패키지 매니저**란 무엇일까? -> 필요한 라이브러리를 내려받아 설치하고 삭제하는 등의 관리를 해주는 프로그램이다.
+* **yarn** : 페이스북에서 npm의 단점을 보완하여 성능과 속도를 개선한 라이브러리 관리 도구
+* **웹팩**이란 무엇일까? -> 웹팩은 프로젝트에서 사용된 파일을 분석하여 브라우저가 인식할 수 있는 기존 웹 문서 파일로 변환하는 
+                           도구이다. 또는 파일을 적절한 크기로 자르거나 묶어주는 역할도 한다.
+* 웹팩을 쓰는이유? -> 프레임워크가 .js, .css, .jpg 같은 기존 웹 문서 파일을 사용하지 않기 때문이다.
+* **Prettier** : 코드의 줄바꿈 등의 스타일을 자동으로 변환해주는 플러그인. 코드 입력 스타일을 동일하게 유지시키므로 현업에서 자주 사용.
 
-### `yarn test`
+### ch_2
+* 자바스크립트 ES6 이후 문법들(이전에 공부했으므로 한번 훑고 지나갔다.)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### ch_3
+* **JSX**(JavaScriptXML) : 자바스크립트에 XML을 추가한 확장형 문법. 하나의 파일에 자바스크립트와 HTML을 동시에 작성할 수 있어 편리하다.
+* 기존의 웹 프레임워크는 **MVC방식**으로 정보담당을 Model, 화면 담당을 View 구동 담당을 Controller가 했다. 코드 관리를 효율적으로 할 수 있으나, 요소의 의존성이 높아 재활용이 어렵다.
+* 컴포넌트의 구성 요소에는 **프로퍼티, state, 컨텍스트**가 있다.
+* **프로퍼티** : 상위 컴포넌트가 하위 컴포넌트에 값을 전달할 때 사용한다. 수정을 할 수 없다는 특징이 있다.
